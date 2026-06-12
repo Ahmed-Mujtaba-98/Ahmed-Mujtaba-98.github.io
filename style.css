@@ -933,8 +933,24 @@ ul { list-style: none; }
   .about-grid {
     grid-template-columns: 1fr;
   }
+  .hero-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
   .hero-badge {
-    display: none;
+    flex-shrink: 0;
+  }
+  .hero-photo {
+    width: 160px;
+    height: 160px;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .hero-tagline {
+    margin-left: auto;
+    margin-right: auto;
   }
   .project-grid {
     grid-template-columns: 1fr;
@@ -966,6 +982,10 @@ ul { list-style: none; }
   .site-header { position: sticky; }
 
   .hero { min-height: auto; padding: 60px 0 48px; }
+  .hero-photo {
+    width: 130px;
+    height: 130px;
+  }
   .hero-actions { gap: 10px; }
   .btn { padding: 9px 16px; font-size: .82rem; }
 
