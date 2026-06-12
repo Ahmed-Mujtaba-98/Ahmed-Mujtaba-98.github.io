@@ -262,27 +262,22 @@ ul { list-style: none; }
   gap: 12px;
 }
 
-/* Avatar badge */
+/* Avatar / profile photo */
 .hero-badge {
   flex-shrink: 0;
 }
 
-.badge-ring {
-  width: 180px;
-  height: 180px;
+.hero-photo {
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--navy-light) 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 0 60px rgba(59,130,246,.25);
-}
-
-.badge-initials {
-  font-size: 3.5rem;
-  font-weight: 800;
-  color: var(--white);
-  letter-spacing: .04em;
+  object-fit: cover;
+  object-position: center top;
+  border: 3px solid var(--accent);
+  box-shadow:
+    0 0 0 7px rgba(59,130,246,.15),
+    0 0 60px rgba(59,130,246,.25);
+  display: block;
 }
 
 /* Scroll hint */
@@ -991,6 +986,21 @@ ul { list-style: none; }
   .pub-badge { align-self: flex-start; }
 
   .contact-links { max-width: 100%; }
+}
+
+/* Desktop — larger base font */
+@media (min-width: 641px) {
+  html { font-size: 17.5px; }
+
+  /* Keep nav and small badge elements compact */
+  .nav-links a       { font-size: .76rem; }
+  .tag               { font-size: .71rem; }
+  .pub-badge         { font-size: .67rem; }
+  .card-period,
+  .project-period,
+  .edu-period,
+  .meta-label,
+  .leadership-role-badge { font-size: .7rem; }
 }
 
 /* Print */
