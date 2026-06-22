@@ -1,0 +1,67 @@
+[
+  {
+    "datetime": "2026-04",
+    "dateDisplay": "30-Apr 2026",
+    "text": "Paper accepted at ICIP 2026 conference, YawDD+: Frame-level Annotations for Accurate Yawn Prediction."
+  },
+  {
+    "datetime": "2026-04",
+    "dateDisplay": "01-Apr 2026",
+    "text": "Paper accepted at ICPR 2026 conference, FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks."
+  },
+  {
+    "datetime": "2025-10",
+    "dateDisplay": "Oct 2025",
+    "text": "Presentating my paper \"Federated Distillation on Edge Devices: Efficient Client-Side Filtering for Non-IID Data\" at FLTA 2025, Dubrovnik, Croatia."
+  },
+  {
+    "datetime": "2025-09",
+    "dateDisplay": "Sept 2025",
+    "text": "Presentation on the topic \"Collaborative Learning on the Edge\" at the annual SAL-DC Summit, 2025."
+  },
+  {
+    "datetime": "2025-08",
+    "dateDisplay": "Aug 2025",
+    "text": "Paper accepted at FLTA conference, Federated Distillation on Edge Devices: Efficient Client-Side Filtering for Non-IID Data."
+  },
+  {
+    "datetime": "2024-10",
+    "dateDisplay": "Oct 2024",
+    "text": "Joined Silicon Austria Labs, GmbH as a PhD Student, Graz, Austria."
+  },
+  {
+    "datetime": "2023-03",
+    "dateDisplay": "Mar 2023",
+    "text": "Joined DeltaX Co., Ltd. as an AI researcher, Seoul, South Korea."
+  },
+  {
+    "datetime": "2023-02",
+    "dateDisplay": "Feb 2023",
+    "text": "Graduated in M.S Computer Engineering from Gachon University, Global Campus, South Korea."
+  },
+  {
+    "datetime": "2022-11",
+    "dateDisplay": "Nov 2023",
+    "text": "Successfully defended my Masters thesis on, TinyML: Efficient Quantization and Deployment of Deep Neural Networks for Embedded IoT Applications, at  Gachon University, Global Campus, South Korea."
+  },
+  {
+    "datetime": "2022-09",
+    "dateDisplay": "Sept 2022",
+    "text": "Paper accepted at NeurIPS workshop, MLOps: Open Challenges from Hardware and Software Perspective in TinyML Devices."
+  },
+  {
+    "datetime": "2022-09",
+    "dateDisplay": "Sept 2022",
+    "text": "Paper accepted at IEEE transaction on circuit and systems II - express briefs, Low Latency Implementations of CNN for Resource-Constrained IoT Devices."
+  },
+  {
+    "datetime": "2021-03",
+    "dateDisplay": "Mar 2021",
+    "text": "Joined as a graduate research student in information security and machine learning lab and started Masters in computer engineering at Gachon university."
+  },
+  {
+    "datetime": "2020-08",
+    "dateDisplay": "Aug 2020",
+    "text": "Graduated in B.Sc Electrical Engineering from University of Engineering and Technology, Taxila, Pakistan."
+  }
+]
