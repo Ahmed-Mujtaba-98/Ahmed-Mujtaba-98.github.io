@@ -54,13 +54,6 @@ const GROUPS = [
 ];
 
 function buildPubCard(pub) {
-  const meta = TYPE_META[pub.type] || TYPE_META.conference;
-
-  // Badge
-  const badge = document.createElement("div");
-  badge.className = `pub-badge ${meta.cls}`;
-  badge.textContent = meta.label;
-
   // Citation (venue + year; no separate citation field)
   const citation = document.createElement("p");
   citation.className = "pub-citation";
@@ -131,7 +124,6 @@ function buildPubCard(pub) {
 
   const article = document.createElement("article");
   article.className = "pub-card";
-  article.appendChild(badge);
   article.appendChild(content);
 
   return article;
