@@ -1,12 +1,22 @@
 [
   {
+    "datetime": "2026-09",
+    "dateDisplay": "Sept 2026",
+    "text": "Poster presentation at the IEEE International Conference on Image Processing (ICIP) 2026 for YawDD+: Frame-level Annotations for Accurate Yawn Prediction."
+  },
+  {
+    "datetime": "2026-08",
+    "dateDisplay": "Aug 2026",
+    "text": "Poster presentation at the 28th International Conference on Pattern Recognition (ICPR) 2026 for FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks."
+  },
+  {
     "datetime": "2026-04",
-    "dateDisplay": "30-Apr 2026",
+    "dateDisplay": "Apr 2026",
     "text": "Paper accepted at ICIP 2026 conference, YawDD+: Frame-level Annotations for Accurate Yawn Prediction."
   },
   {
     "datetime": "2026-04",
-    "dateDisplay": "01-Apr 2026",
+    "dateDisplay": "Apr 2026",
     "text": "Paper accepted at ICPR 2026 conference, FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks."
   },
   {
@@ -52,12 +62,12 @@
   {
     "datetime": "2022-09",
     "dateDisplay": "Sept 2022",
-    "text": "Paper accepted at IEEE transaction on circuit and systems II - express briefs, Low Latency Implementations of CNN for Resource-Constrained IoT Devices."
+    "text": "Paper accepted at IEEE Transaction on Circuit and Systems II - Express Briefs, Low Latency Implementations of CNN for Resource-Constrained IoT Devices."
   },
   {
     "datetime": "2021-03",
     "dateDisplay": "Mar 2021",
-    "text": "Joined as a graduate research student in information security and machine learning lab and started Masters in computer engineering at Gachon university."
+    "text": "Joined as a Graduate Research Assistant in Information Security and Machine Learning Lab, and started M.S in Computer Engineering, Gachon university, South Korea"
   },
   {
     "datetime": "2020-08",

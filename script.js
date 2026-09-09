@@ -38,7 +38,6 @@ sections.forEach(s => observer.observe(s));
 // SVG icons (inline so no external dependency)
 const ICON_PAPER  = `<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>`;
 const ICON_CODE   = `<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`;
-const ICON_BIBTEX = `<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7V5a2 2 0 012-2h14a2 2 0 012 2v2"/><rect x="1" y="7" width="22" height="13" rx="2"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>`;
 const ICON_EXT    = `<svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`;
 
 const TYPE_META = {
@@ -81,38 +80,6 @@ function buildPubCard(pub) {
     btn.rel = "noopener noreferrer";
     btn.className = "pub-btn pub-btn--code";
     btn.innerHTML = `${ICON_CODE} Code ${ICON_EXT}`;
-    actions.appendChild(btn);
-  }
-
-  if (pub.bibtex) {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "pub-btn pub-btn--bibtex";
-    btn.innerHTML = `${ICON_BIBTEX} BibTeX`;
-    btn.addEventListener("click", () => {
-      const escaped = pub.bibtex
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
-      const html = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<title>BibTeX</title>
-<style>
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:#0f172a;color:#e2e8f0;font-family:'Courier New',Courier,monospace;padding:2.5rem;line-height:1.75}
-  h2{font-family:system-ui,sans-serif;color:#93c5fd;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:1.5rem}
-  pre{white-space:pre-wrap;word-break:break-word;font-size:.92rem;background:#1e293b;padding:1.5rem;border-radius:8px;border:1px solid #334155}
-  button{margin-top:1.25rem;padding:.5rem 1.25rem;background:#3b82f6;color:#fff;border:none;border-radius:6px;font-size:.82rem;font-weight:600;cursor:pointer;font-family:system-ui,sans-serif}
-  button:hover{background:#2563eb}
-</style></head>
-<body>
-<h2>BibTeX Citation</h2>
-<pre>${escaped}</pre>
-<button onclick="navigator.clipboard.writeText(document.querySelector('pre').textContent).then(()=>this.textContent='Copied!')">Copy to clipboard</button>
-</body></html>`;
-      const blob = new Blob([html], { type: "text/html" });
-      const url  = URL.createObjectURL(blob);
-      window.open(url, "_blank");
-    });
     actions.appendChild(btn);
   }
 

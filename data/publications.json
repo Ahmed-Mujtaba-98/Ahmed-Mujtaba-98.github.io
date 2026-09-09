@@ -6,8 +6,7 @@
     "venue": "Applied Intelligence, 55, 589",
     "year": 2025,
     "paper": "https://doi.org/10.1007/s10489-025-06495-1",
-    "code": null,
-    "bibtex": "@article{mujtaba2025augq, \n title={AuGQ: Augmented quantization granularity to overcome accuracy degradation for sub-byte quantized deep neural networks: A. Mujtaba et al.}, \n author={Mujtaba, Ahmed and Lee, Wai Kong and Ko, Byoung Chul and Chang, Hyung Jin and Hwang, Seong Oun}, \n journal={Applied Intelligence}, \n volume={55}, \n number={7}, \n pages={589}, \n year={2025}, \n publisher={Springer} \n}"
+    "code": null
   },
   {
     "type": "journal",
@@ -16,28 +15,25 @@
     "venue": "IEEE Transactions on Circuits and Systems II: Express Briefs",
     "year": 2022,
     "paper": "https://doi.org/10.1109/TCSII.2022.3205029",
-    "code": "https://github.com/Ahmed-Mujtaba-98/CMix-NN-Implementation-of-MobileNetv1-using-CIFAR10-and-ImageNet-Dataset-on-STM32H7",
-    "bibtex": "@ARTICLE{9881566, \n author={Mujtaba, Ahmed and Lee, Wai-Kong and Hwang, Seong Oun}, \n journal={IEEE Transactions on Circuits and Systems II: Express Briefs}, \n title={Low Latency Implementations of CNN for Resource-Constrained IoT Devices}, \n year={2022}, \n volume={69}, \n number={12}, \n pages={5124-5128}, \n keywords={Internet of Things;Convolutional neural networks;Quantization (signal);System-on-chip;Low latency communication;Memory management;Optimization;Convolutional neural networks;Internet-of-Things;microcontrollers;tiny ML}, \n doi={10.1109/TCSII.2022.3205029}\n}"
+    "code": "https://github.com/Ahmed-Mujtaba-98/CMix-NN-Implementation-of-MobileNetv1-using-CIFAR10-and-ImageNet-Dataset-on-STM32H7"
   },
   {
     "type": "conference",
     "title": "FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks",
     "authors": "<strong>Mujtaba, A.</strong>, Radchenko, G., Prodan, R., and Masana, M.",
-    "venue": "28th International Conference on Pattern Recognition (ICPR) 2026",
-    "year": "<strong>(Accepted)</strong>",
-    "paper": "https://arxiv.org/abs/2605.19480",
-    "code": "https://opensource.silicon-austria.com/mujtabaa/fedadas",
-    "bibtex": "@misc{mujtaba2026fedadascommunicationefficientfederateddistillation, \n title={FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks},  \n author={Ahmed Mujtaba and Gleb Radchenko and Marc Masana and Radu Prodan}, \n year={2026}, \n eprint={2605.19480}, \n archivePrefix={arXiv}, \n primaryClass={cs.DC}, \n url={https://arxiv.org/abs/2605.19480} \n}"
+    "venue": "International Conference on Pattern Recognition (ICPR)",
+    "year": "2026",
+    "paper": "https://link.springer.com/chapter/10.1007/978-3-032-31920-3_23",
+    "code": "https://opensource.silicon-austria.com/mujtabaa/fedadas"
   },
   {
     "type": "conference",
     "title": "YawDD+: Frame-level Annotations for Accurate Yawn Prediction",
     "authors": "<strong>Mujtaba, A.</strong>, Radchenko, G., Prodan, R., and Masana, M.",
-    "venue": "2026 IEEE International Conference on Image Processing, Tampere, Finland",
-    "year": "<strong>(Accepted)</strong>",
-    "paper": "https://arxiv.org/abs/2512.11446",
-    "code": "https://opensource.silicon-austria.com/mujtabaa/yawdd",
-    "bibtex": "@misc{mujtaba2026yawddframelevelannotationsaccurate, \n title={YawDD+: Frame-level Annotations for Accurate Yawn Prediction} \n author={Ahmed Mujtaba and Gleb Radchenko and Marc Masana and Radu Prodan} \n year={2026} \n eprint={2512.11446} \n archivePrefix={arXiv} \n primaryClass={cs.CV} \n url={https://arxiv.org/abs/2512.11446} \n}"
+    "venue": "IEEE International Conference on Image Processing (ICIP)",
+    "year": "2026",
+    "paper": "https://ieeexplore.ieee.org/abstract/document/11630437",
+    "code": "https://opensource.silicon-austria.com/mujtabaa/yawdd"
   },
   {
     "type": "conference",
@@ -46,8 +42,7 @@
     "venue": "2025 3rd International Conference on Federated Learning Technologies and Applications (FLTA), Dubrovnik, Croatia",
     "year": 2025,
     "paper": "https://doi.org/10.1109/FLTA67013.2025.11336390",
-    "code": "https://opensource.silicon-austria.com/mujtabaa/edgefd",
-    "bibtex": "@INPROCEEDINGS{11336390,\n  author={Mujtaba, Ahmed and Radchenko, Gleb and Prodan, Radu and Masana, Marc},\n  booktitle={2025 3rd International Conference on Federated Learning Technologies and Applications (FLTA)},\n  title={Federated Distillation on Edge Devices: Efficient Client-Side Filtering for Non-IID Data},\n  year={2025},\n  volume={},\n  number={},\n  pages={228-235},\n  keywords={Performance evaluation;Technological innovation;Accuracy;Filtering;Federated learning;Computational modeling;Scalability;Reproducibility of results;Servers;Time complexity;Distributed AI;Deep Learning;Edge Computing;Federated Learning;Federated Distillation},\n  doi={10.1109/FLTA67013.2025.11336390}\n}"
+    "code": "https://opensource.silicon-austria.com/mujtabaa/edgefd"
   },
   {
     "type": "conference",
@@ -56,10 +51,9 @@
     "venue": "9th International Conference on Green and Human Information Technology (ICGHIT), pp. 72–74",
     "year": 2021,
     "paper": null,
-    "code": null,
-    "bibtex": null
+    "code": null
   },
-  
+
   {
     "type": "workshop",
     "title": "MLOps: Open Challenges from Hardware and Software Perspective in TinyML Devices",
@@ -67,7 +61,6 @@
     "venue": "Challenges in Deploying and Monitoring ML Systems Workshop, NeurIPS",
     "year": 2022,
     "paper": "https://silicon-austria-labs.elsevierpure.com/ws/portalfiles/portal/75305058/paper_8.pdf",
-    "code": null,
-    "bibtex": "@inproceedings{mujtaba2022mlops, \n title={MLOps: Open Challenges from Hardware and Software Perspective in TinyML Devices}, \n author={Mujtaba, Ahmed}, \n booktitle={Challenges in Deploying and monitoring Machine Learning Systems: NeurIPS VIRTUAL Workshop}, \n year={2022} \n}"
+    "code": null
   }
 ]

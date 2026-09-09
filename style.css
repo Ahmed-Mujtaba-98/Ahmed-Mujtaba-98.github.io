@@ -1096,19 +1096,6 @@ ul { list-style: none; }
   border-color: #16a34a;
 }
 
-.pub-btn--bibtex {
-  background: rgba(168,85,247,.08);
-  color: #7c3aed;
-  border-color: rgba(168,85,247,.3);
-  cursor: pointer;
-  font-family: inherit;
-}
-.pub-btn--bibtex:hover {
-  background: #7c3aed;
-  color: var(--white);
-  border-color: #7c3aed;
-}
-
 .pub-loading {
   color: var(--text-muted);
   font-size: .9rem;
