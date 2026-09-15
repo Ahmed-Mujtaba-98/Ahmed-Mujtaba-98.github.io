@@ -5,31 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Primary SEO -->
-  <title>Ahmed Mujtaba | EdgeAI &amp; TinyML Researcher | Silicon Austria Labs</title>
-  <meta name="description" content="Ahmed Mujtaba is a AI researcher, Junior Scientist, and PhD Student at Silicon Austria Labs and University of Innsbruck, Austria. He researches EdgeAI, TinyML, federated learning, neural network quantization, pruning, and embedded AI." />
+  <title>Ahmed Mujtaba — AI Researcher | EdgeAI, TinyML &amp; Federated Learning</title>
+  <meta name="description" content="Ahmed Mujtaba is an AI researcher and PhD student at Silicon Austria Labs and the University of Innsbruck, Austria, working on federated learning, EdgeAI, TinyML and model compression." />
   <meta name="author" content="Ahmed Mujtaba" />
-  <meta name="keywords" content="Ahmed Mujtaba, Ahmed Mujtaba researcher, Ahmed Mujtaba computer scientist, Ahmed Mujtaba academic, Ahmed Mujtaba PhD, Ahmed Mujtaba PhD student, Ahmed Mujtaba PhD Austria, Ahmed Mujtaba Innsbruck, Ahmed Mujtaba Graz, Ahmed Mujtaba Silicon Austria Labs, Ahmed Mujtaba TinyML, Ahmed Mujtaba EdgeAI, Ahmed Mujtaba machine learning, Ahmed Mujtaba artificial intelligence, Ahmed Mujtaba federated learning, Ahmed Mujtaba ORCID, EdgeAI, TinyML, federated learning, collaborative learning edge, model compression, quantization, pruning, knowledge distillation, embedded AI, neural network, Silicon Austria Labs, University of Innsbruck, Gachon University, DeltaX, automotive AI, embedded computer vision" />
-  <meta name="robots" content="index, follow" />
-  <meta name="googlebot" content="index, follow" />
+  <meta name="keywords" content="Ahmed Mujtaba, Ahmed Mujtaba researcher, Ahmed Mujtaba PhD, EdgeAI, TinyML, federated learning, knowledge distillation, neural network quantization, embedded AI, Silicon Austria Labs, University of Innsbruck" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <meta name="google-site-verification" content="SlkqucBfOhakGowJSju3IJIhr0hoMb5O0SwaXNVOKJI" />
+  <meta name="theme-color" content="#0a192f" />
 
   <!-- Canonical -->
   <link rel="canonical" href="https://ahmed-mujtaba-98.github.io/" />
+
+  <!-- Icons (favicon appears beside the result in Google search) -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/assets/profile-560.jpg" />
+
+  <!-- Prioritise the hero portrait (largest contentful paint) -->
+  <link rel="preload" as="image" href="/assets/profile-560.jpg" fetchpriority="high" />
 
   <!-- Social verification (rel=me helps Google confirm identity across profiles) -->
   <link rel="me" href="https://github.com/Ahmed-Mujtaba-98/" />
   <link rel="me" href="https://www.linkedin.com/in/ahmed-mujtaba-3796551b4/" />
   <link rel="me" href="https://orcid.org/0000-0002-3039-9812" />
-  <link rel="me" href="https://scholar.google.com/citations?user=ZkaaV5EAAAAJ&hl=en" />
+  <link rel="me" href="https://scholar.google.com/citations?user=ZkaaV5EAAAAJ&amp;hl=en" />
   <link rel="me" href="https://silicon-austria-labs.elsevierpure.com/en/persons/ahmed-mujtaba/" />
 
-  <!-- Open Graph (Facebook, WhatsApp, Slack previews) -->
+  <!-- Open Graph (Facebook, WhatsApp, Slack, LinkedIn previews) -->
   <meta property="og:type" content="profile" />
-  <meta property="og:title" content="Ahmed Mujtaba | EdgeAI &amp; TinyML Researcher" />
-  <meta property="og:description" content="Ahmed Mujtaba — Junior Scientist and PhD Student at Silicon Austria Labs and University of Innsbruck. Researching collaborative learning for edge devices, TinyML, model compression, and embedded AI." />
+  <meta property="og:title" content="Ahmed Mujtaba — AI Researcher in EdgeAI, TinyML &amp; Federated Learning" />
+  <meta property="og:description" content="Ahmed Mujtaba is an AI researcher and PhD student at Silicon Austria Labs and the University of Innsbruck, Austria, working on federated learning, EdgeAI, TinyML and model compression." />
   <meta property="og:url" content="https://ahmed-mujtaba-98.github.io/" />
-  <meta property="og:image" content="https://ahmed-mujtaba-98.github.io/assets/profile.jpg" />
-  <meta property="og:image:alt" content="Ahmed Mujtaba — EdgeAI and TinyML Researcher" />
+  <meta property="og:image" content="https://ahmed-mujtaba-98.github.io/assets/profile-og.jpg" />
+  <meta property="og:image:secure_url" content="https://ahmed-mujtaba-98.github.io/assets/profile-og.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1200" />
+  <meta property="og:image:alt" content="Portrait of Ahmed Mujtaba, AI researcher at Silicon Austria Labs" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="Ahmed Mujtaba" />
   <meta property="profile:first_name" content="Ahmed" />
@@ -37,104 +49,329 @@
 
   <!-- Twitter / X Card -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Ahmed Mujtaba | EdgeAI &amp; TinyML Researcher" />
-  <meta name="twitter:description" content="Junior Scientist at Silicon Austria Labs. PhD Student at University of Innsbruck. Research: EdgeAI, TinyML, federated learning, model compression." />
-  <meta name="twitter:image" content="https://ahmed-mujtaba-98.github.io/assets/profile.jpg" />
-  <meta name="twitter:image:alt" content="Ahmed Mujtaba" />
+  <meta name="twitter:title" content="Ahmed Mujtaba — AI Researcher in EdgeAI &amp; TinyML" />
+  <meta name="twitter:description" content="PhD student at Silicon Austria Labs and the University of Innsbruck. Research: federated learning, EdgeAI, TinyML, model compression." />
+  <meta name="twitter:image" content="https://ahmed-mujtaba-98.github.io/assets/profile-og.jpg" />
+  <meta name="twitter:image:alt" content="Portrait of Ahmed Mujtaba, AI researcher at Silicon Austria Labs" />
 
-  <!-- JSON-LD Structured Data — Person (highest-impact for name searches) -->
+  <!-- JSON-LD — single connected entity graph (ProfilePage → Person).
+       ProfilePage is Google's recommended type for a personal profile page and
+       is what ties every node below to one real-world entity. -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://ahmed-mujtaba-98.github.io/#person",
-    "name": "Ahmed Mujtaba",
-    "givenName": "Ahmed",
-    "familyName": "Mujtaba",
-    "url": "https://ahmed-mujtaba-98.github.io/",
-    "image": "https://ahmed-mujtaba-98.github.io/assets/profile.jpg",
-    "email": "ahmedmujtaba709@gmail.com",
-    "jobTitle": "Junior Scientist (PhD Student)",
-    "description": "Ahmed Mujtaba is a Junior Scientist and PhD Student at Silicon Austria Labs GmbH and University of Innsbruck, researching lightweight collaborative learning for edge devices, TinyML, neural network quantization, pruning, and embedded AI deployment.",
-    "disambiguatingDescription": "Ahmed Mujtaba the computer scientist and researcher — a PhD Student in EdgeAI and TinyML at Silicon Austria Labs and University of Innsbruck, Austria. Author of peer-reviewed publications in IEEE and Springer journals and international conferences.",
-    "hasOccupation": {
-      "@type": "Occupation",
-      "name": "Researcher",
-      "occupationLocation": {
-        "@type": "City",
-        "name": "Graz, Austria"
+    "@graph": [
+      {
+        "@type": "ProfilePage",
+        "@id": "https://ahmed-mujtaba-98.github.io/#profilepage",
+        "url": "https://ahmed-mujtaba-98.github.io/",
+        "name": "Ahmed Mujtaba — AI Researcher in EdgeAI, TinyML & Federated Learning",
+        "isPartOf": { "@id": "https://ahmed-mujtaba-98.github.io/#website" },
+        "primaryImageOfPage": { "@id": "https://ahmed-mujtaba-98.github.io/#primaryimage" },
+        "mainEntity": { "@id": "https://ahmed-mujtaba-98.github.io/#person" },
+        "about": { "@id": "https://ahmed-mujtaba-98.github.io/#person" },
+        "inLanguage": "en"
       },
-      "description": "PhD research on lightweight federated learning and TinyML for edge devices",
-      "skills": "EdgeAI, TinyML, Federated Learning, Neural Network Quantization, Model Compression, Embedded AI"
-    },
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Silicon Austria Labs GmbH",
-      "url": "https://silicon-austria-labs.com/"
-    },
-    "affiliation": {
-      "@type": "CollegeOrUniversity",
-      "name": "University of Innsbruck",
-      "url": "https://www.uibk.ac.at/"
-    },
-    "alumniOf": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ahmed-mujtaba-98.github.io/#website",
+        "url": "https://ahmed-mujtaba-98.github.io/",
+        "name": "Ahmed Mujtaba",
+        "alternateName": "Ahmed Mujtaba — Research Portfolio",
+        "description": "Academic and research portfolio of Ahmed Mujtaba, AI researcher in EdgeAI, TinyML and federated learning at Silicon Austria Labs.",
+        "publisher": { "@id": "https://ahmed-mujtaba-98.github.io/#person" },
+        "about": { "@id": "https://ahmed-mujtaba-98.github.io/#person" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "ImageObject",
+        "@id": "https://ahmed-mujtaba-98.github.io/#primaryimage",
+        "url": "https://ahmed-mujtaba-98.github.io/assets/profile-og.jpg",
+        "contentUrl": "https://ahmed-mujtaba-98.github.io/assets/profile-og.jpg",
+        "width": 1200,
+        "height": 1200,
+        "caption": "Portrait of Ahmed Mujtaba, AI researcher at Silicon Austria Labs"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://ahmed-mujtaba-98.github.io/#person",
+        "name": "Ahmed Mujtaba",
+        "givenName": "Ahmed",
+        "familyName": "Mujtaba",
+        "alternateName": ["Mujtaba Ahmed", "A. Mujtaba"],
+        "url": "https://ahmed-mujtaba-98.github.io/",
+        "mainEntityOfPage": { "@id": "https://ahmed-mujtaba-98.github.io/#profilepage" },
+        "image": { "@id": "https://ahmed-mujtaba-98.github.io/#primaryimage" },
+        "email": "mailto:ahmedmujtaba709@gmail.com",
+        "jobTitle": "Junior Scientist / PhD Student",
+        "description": "Ahmed Mujtaba is a Junior Scientist and PhD Student at Silicon Austria Labs GmbH and the University of Innsbruck, researching model-heterogeneous federated learning for edge devices, TinyML, neural network quantization, pruning and embedded AI deployment.",
+        "disambiguatingDescription": "Ahmed Mujtaba the computer scientist and AI researcher — PhD student in EdgeAI and TinyML at Silicon Austria Labs and the University of Innsbruck, Austria; author of peer-reviewed publications in IEEE and Springer journals and conferences. Not to be confused with the mixed martial artist or the politician of the same name.",
+        "knowsLanguage": [
+          { "@type": "Language", "name": "English" },
+          { "@type": "Language", "name": "Urdu" }
+        ],
+        "workLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Sandgasse 34",
+            "addressLocality": "Graz",
+            "postalCode": "8010",
+            "addressCountry": "AT"
+          }
+        },
+        "identifier": [
+          {
+            "@type": "PropertyValue",
+            "propertyID": "ORCID",
+            "value": "0000-0002-3039-9812",
+            "url": "https://orcid.org/0000-0002-3039-9812"
+          }
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Artificial Intelligence Researcher",
+          "occupationLocation": { "@type": "City", "name": "Graz, Austria" },
+          "description": "Doctoral research on model-heterogeneous federated learning, knowledge distillation and TinyML for resource-constrained edge devices.",
+          "skills": "EdgeAI, TinyML, Federated Learning, Knowledge Distillation, Neural Network Quantization, Model Compression, Embedded AI"
+        },
+        "worksFor": { "@id": "https://silicon-austria-labs.com/#organization" },
+        "affiliation": [
+          { "@id": "https://silicon-austria-labs.com/#organization" },
+          { "@id": "https://www.uibk.ac.at/#organization" }
+        ],
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Gachon University",
+            "url": "https://www.gachon.ac.kr/",
+            "address": { "@type": "PostalAddress", "addressCountry": "KR" }
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Engineering and Technology Taxila",
+            "url": "https://www.uettaxila.edu.pk/",
+            "address": { "@type": "PostalAddress", "addressCountry": "PK" }
+          }
+        ],
+        "memberOf": [
+          {
+            "@type": "Organization",
+            "name": "IEEE Sensors Council Student Branch Chapter, Gachon University",
+            "url": "https://www.ieee.org/"
+          }
+        ],
+        "award": [
+          "CRYSTALLINE MSCA-COFUND doctoral fellowship (grant agreement No. 101126571)",
+          "Best Paper Award, Gachon University (2023)",
+          "Global Scholarship, Gachon University (2021–2023)",
+          "Bachelor's Degree with Distinction, UET Taxila (2020)",
+          "Ignite NGIRI Research Grant, National Technology Fund Pakistan (2019–2020)"
+        ],
+        "knowsAbout": [
+          "EdgeAI", "TinyML", "Federated Learning", "Federated Distillation",
+          "Knowledge Distillation", "Neural Network Quantization", "Model Pruning",
+          "Model Compression", "Embedded Computer Vision", "Hardware-Software Co-design",
+          "Automotive AI", "Driver Monitoring Systems", "Deep Learning",
+          "Machine Learning", "Embedded Systems", "Internet of Things", "Distributed AI"
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "name": "Master of Science in Computer Engineering",
+            "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Gachon University" }
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "name": "Bachelor of Science in Electrical Engineering",
+            "recognizedBy": { "@type": "CollegeOrUniversity", "name": "University of Engineering and Technology Taxila" }
+          }
+        ],
+        "sameAs": [
+          "https://github.com/Ahmed-Mujtaba-98/",
+          "https://www.linkedin.com/in/ahmed-mujtaba-3796551b4/",
+          "https://orcid.org/0000-0002-3039-9812",
+          "https://scholar.google.com/citations?user=ZkaaV5EAAAAJ&hl=en",
+          "https://silicon-austria-labs.elsevierpure.com/en/persons/ahmed-mujtaba/"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://silicon-austria-labs.com/#organization",
+        "name": "Silicon Austria Labs GmbH",
+        "alternateName": "SAL",
+        "url": "https://silicon-austria-labs.com/",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Sandgasse 34",
+          "addressLocality": "Graz",
+          "postalCode": "8010",
+          "addressCountry": "AT"
+        }
+      },
       {
         "@type": "CollegeOrUniversity",
-        "name": "Gachon University",
-        "address": { "@type": "PostalAddress", "addressCountry": "KR" }
-      },
-      {
-        "@type": "CollegeOrUniversity",
-        "name": "University of Engineering and Technology Taxila",
-        "address": { "@type": "PostalAddress", "addressCountry": "PK" }
+        "@id": "https://www.uibk.ac.at/#organization",
+        "name": "University of Innsbruck",
+        "alternateName": "Universität Innsbruck",
+        "url": "https://www.uibk.ac.at/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Innsbruck",
+          "addressCountry": "AT"
+        }
       }
-    ],
-    "knowsAbout": [
-      "EdgeAI", "TinyML", "Federated Learning", "Collaborative Learning",
-      "Neural Network Quantization", "Model Pruning", "Knowledge Distillation",
-      "Embedded Computer Vision", "Hardware-Software Co-design",
-      "Automotive AI", "Driver Monitoring Systems",
-      "Deep Learning", "Machine Learning", "Embedded Systems",
-      "Internet of Things", "Distributed AI"
-    ],
-    "hasCredential": [
-      {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "degree",
-        "name": "Master of Science in Computer Engineering",
-        "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Gachon University" }
-      },
-      {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "degree",
-        "name": "Bachelor of Science in Electrical Engineering",
-        "recognizedBy": { "@type": "CollegeOrUniversity", "name": "University of Engineering and Technology Taxila" }
-      }
-    ],
-    "sameAs": [
-      "https://github.com/Ahmed-Mujtaba-98/",
-      "https://www.linkedin.com/in/ahmed-mujtaba-3796551b4/",
-      "https://orcid.org/0000-0002-3039-9812",
-      "https://scholar.google.com/citations?user=ZkaaV5EAAAAJ&hl=en",
-      "https://silicon-austria-labs.elsevierpure.com/en/persons/ahmed-mujtaba/"
     ]
   }
   </script>
 
-  <!-- JSON-LD — WebSite (enables Google Sitelinks Search) -->
+  <!-- JSON-LD — publications (generated from data/publications.json by tools/build-seo.ps1) -->
+  <!-- SEO:PUBSCHEMA:START -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Ahmed Mujtaba",
-    "url": "https://ahmed-mujtaba-98.github.io/",
-    "description": "Personal academic and research portfolio of Ahmed Mujtaba — EdgeAI and TinyML researcher at Silicon Austria Labs.",
-    "author": {
-      "@type": "Person",
-      "name": "Ahmed Mujtaba"
-    }
-  }
+{
+    "@context":  "https://schema.org",
+    "@graph":  [
+                   {
+                       "@type":  "ScholarlyArticle",
+                       "headline":  "AuGQ: Augmented Quantization Granularity to Overcome Accuracy Degradation for Sub-Byte Quantized Deep Neural Networks",
+                       "name":  "AuGQ: Augmented Quantization Granularity to Overcome Accuracy Degradation for Sub-Byte Quantized Deep Neural Networks",
+                       "author":  [
+                                      {
+                                          "@id":  "https://ahmed-mujtaba-98.github.io/#person"
+                                      }
+                                  ],
+                       "creditText":  "Mujtaba, A., Lee, W.K., Ko, B.C. et al.",
+                       "datePublished":  "2025",
+                       "isPartOf":  {
+                                        "@type":  "PublicationIssue",
+                                        "name":  "Applied Intelligence, 55, 589"
+                                    },
+                       "inLanguage":  "en",
+                       "url":  "https://doi.org/10.1007/s10489-025-06495-1",
+                       "sameAs":  "https://doi.org/10.1007/s10489-025-06495-1"
+                   },
+                   {
+                       "@type":  "ScholarlyArticle",
+                       "headline":  "Low Latency Implementations of CNN for Resource-Constrained IoT Devices",
+                       "name":  "Low Latency Implementations of CNN for Resource-Constrained IoT Devices",
+                       "author":  [
+                                      {
+                                          "@id":  "https://ahmed-mujtaba-98.github.io/#person"
+                                      }
+                                  ],
+                       "creditText":  "A. Mujtaba, W.-K. Lee, and S. O. Hwang",
+                       "datePublished":  "2022",
+                       "isPartOf":  {
+                                        "@type":  "PublicationIssue",
+                                        "name":  "IEEE Transactions on Circuits and Systems II: Express Briefs"
+                                    },
+                       "inLanguage":  "en",
+                       "url":  "https://doi.org/10.1109/TCSII.2022.3205029",
+                       "sameAs":  "https://doi.org/10.1109/TCSII.2022.3205029",
+                       "codeRepository":  "https://github.com/Ahmed-Mujtaba-98/CMix-NN-Implementation-of-MobileNetv1-using-CIFAR10-and-ImageNet-Dataset-on-STM32H7"
+                   },
+                   {
+                       "@type":  "ScholarlyArticle",
+                       "headline":  "FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks",
+                       "name":  "FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks",
+                       "author":  [
+                                      {
+                                          "@id":  "https://ahmed-mujtaba-98.github.io/#person"
+                                      }
+                                  ],
+                       "creditText":  "Mujtaba, A., Radchenko, G., Prodan, R., and Masana, M.",
+                       "datePublished":  "2026",
+                       "isPartOf":  {
+                                        "@type":  "PublicationIssue",
+                                        "name":  "International Conference on Pattern Recognition (ICPR)"
+                                    },
+                       "inLanguage":  "en",
+                       "url":  "https://link.springer.com/chapter/10.1007/978-3-032-31920-3_23",
+                       "sameAs":  "https://link.springer.com/chapter/10.1007/978-3-032-31920-3_23",
+                       "codeRepository":  "https://opensource.silicon-austria.com/mujtabaa/fedadas"
+                   },
+                   {
+                       "@type":  "ScholarlyArticle",
+                       "headline":  "YawDD+: Frame-level Annotations for Accurate Yawn Prediction",
+                       "name":  "YawDD+: Frame-level Annotations for Accurate Yawn Prediction",
+                       "author":  [
+                                      {
+                                          "@id":  "https://ahmed-mujtaba-98.github.io/#person"
+                                      }
+                                  ],
+                       "creditText":  "Mujtaba, A., Radchenko, G., Prodan, R., and Masana, M.",
+                       "datePublished":  "2026",
+                       "isPartOf":  {
+                                        "@type":  "PublicationIssue",
+                                        "name":  "IEEE International Conference on Image Processing (ICIP)"
+                                    },
+                       "inLanguage":  "en",
+                       "url":  "https://ieeexplore.ieee.org/abstract/document/11630437",
+                       "sameAs":  "https://ieeexplore.ieee.org/abstract/document/11630437",
+                       "codeRepository":  "https://opensource.silicon-austria.com/mujtabaa/yawdd"
+                   },
+                   {
+                       "@type":  "ScholarlyArticle",
+                       "headline":  "Federated Distillation on Edge Devices: Efficient Client-Side Filtering for Non-IID Data",
+                       "name":  "Federated Distillation on Edge Devices: Efficient Client-Side Filtering for Non-IID Data",
+                       "author":  [
+                                      {
+                                          "@id":  "https://ahmed-mujtaba-98.github.io/#person"
+                                      }
+                                  ],
+                       "creditText":  "Mujtaba, A., Radchenko, G., Prodan, R., and Masana, M.",
+                       "datePublished":  "2025",
+                       "isPartOf":  {
+                                        "@type":  "PublicationIssue",
+                                        "name":  "2025 3rd International Conference on Federated Learning Technologies and Applications (FLTA), Dubrovnik, Croatia"
+                                    },
+                       "inLanguage":  "en",
+                       "url":  "https://doi.org/10.1109/FLTA67013.2025.11336390",
+                       "sameAs":  "https://doi.org/10.1109/FLTA67013.2025.11336390",
+                       "codeRepository":  "https://opensource.silicon-austria.com/mujtabaa/edgefd"
+                   },
+                   {
+                       "@type":  "ScholarlyArticle",
+                       "headline":  "Evaluation of Additive Power of Two Quantization on Various Deep Learning Datasets",
+                       "name":  "Evaluation of Additive Power of Two Quantization on Various Deep Learning Datasets",
+                       "author":  [
+                                      {
+                                          "@id":  "https://ahmed-mujtaba-98.github.io/#person"
+                                      }
+                                  ],
+                       "creditText":  "Rozi Khan, Ahmed Mujtaba, Wai Kong Lee, and Seong Oun Hwang",
+                       "datePublished":  "2021",
+                       "isPartOf":  {
+                                        "@type":  "PublicationIssue",
+                                        "name":  "9th International Conference on Green and Human Information Technology (ICGHIT), pp. 72–74"
+                                    },
+                       "inLanguage":  "en"
+                   },
+                   {
+                       "@type":  "ScholarlyArticle",
+                       "headline":  "MLOps: Open Challenges from Hardware and Software Perspective in TinyML Devices",
+                       "name":  "MLOps: Open Challenges from Hardware and Software Perspective in TinyML Devices",
+                       "author":  [
+                                      {
+                                          "@id":  "https://ahmed-mujtaba-98.github.io/#person"
+                                      }
+                                  ],
+                       "creditText":  "A. Mujtaba, Majeed, A., and S. O. Hwang",
+                       "datePublished":  "2022",
+                       "isPartOf":  {
+                                        "@type":  "PublicationIssue",
+                                        "name":  "Challenges in Deploying and Monitoring ML Systems Workshop, NeurIPS"
+                                    },
+                       "inLanguage":  "en",
+                       "url":  "https://silicon-austria-labs.elsevierpure.com/ws/portalfiles/portal/75305058/paper_8.pdf",
+                       "sameAs":  "https://silicon-austria-labs.elsevierpure.com/ws/portalfiles/portal/75305058/paper_8.pdf"
+                   }
+               ]
+}
   </script>
+          <!-- SEO:PUBSCHEMA:END -->
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -193,14 +430,15 @@
               <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm-1.374 17.361H8.963V8.24h1.663v9.121zm-.832-10.397a1.036 1.036 0 110-2.072 1.036 1.036 0 010 2.072zm7.601 10.397h-1.663v-4.59c0-1.095-.392-1.843-1.374-1.843-.75 0-1.196.504-1.393 1.003-.072.175-.09.42-.09.665v4.765h-1.663V8.24h1.663v1.304c.221-.34.615-.824 1.494-.824 1.091 0 1.908.712 1.908 2.244l.118 6.397z"/></svg>
               ORCID
             </a>
-            <a href="https://scholar.google.com/citations?user=ZkaaV5EAAAAJ&hl=en" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+            <a href="https://scholar.google.com/citations?user=ZkaaV5EAAAAJ&amp;hl=en" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
               <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3L1 9l4 2.18V17c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-5.82L21 9l-9-6zm5 12H7v-4.5l5 2.72 5-2.72V15zm-5-4.23L3.42 9 12 4.23 20.58 9 12 10.77z"/></svg>
               Google Scholar
             </a>
           </div>
         </div>
         <div class="hero-badge">
-          <img src="assets/profile.jpg" alt="Ahmed Mujtaba" class="hero-photo" />
+          <img src="assets/profile-560.jpg" alt="Ahmed Mujtaba, AI researcher and PhD student at Silicon Austria Labs and the University of Innsbruck"
+               class="hero-photo" width="560" height="560" fetchpriority="high" decoding="async" />
         </div>
       </div>
       <div class="hero-scroll-hint" aria-hidden="true">
@@ -216,10 +454,8 @@
           <div class="about-bio">
             <p>
               I am a PhD Student at 
-              <a class="meta-value meta-link" href="https://www.silicon-austria-labs.com/" target="_blank" rel="noopener noreferrer">Silicon Austria Labs, GmbH</a> and the <strong>University of Innsbruck</strong>, Austria, where my doctoral research centres on lightweight model-agnostic federated learning methods for edge devices. My work sits at the intersection of efficient machine learning, embedded systems, and distributed intelligence — spanning neural network quantization, pruning, knowledge distillation, and federated learning tailored to resource-constrained hardware.
-            </p>
-            <p>
-              Prior to my PhD, I worked as an AI Researcher at <a class="meta-value meta-link" href="https://deltax.ai/en" target="_blank" rel="noopener noreferrer">DeltaX Co., Ltd.</a> in Seoul, collaborating with Hyundai-Mobis and KIA on end-to-end deep learning pipelines for automotive applications including Driver Monitoring Systems and In-Cabin Monitoring Systems. This industry experience gave me hands-on expertise in hardware-software co-design and the deployment of optimised models on embedded platforms such as NVIDIA Jetson, Texas Instruments TDA4X, and HAILO. Earlier, as a Graduate Research Assistant at <a class="meta-value meta-link" href="https://ai-security.github.io/professor_main_e.htm" target="_blank" rel="noopener noreferrer">Information Security and Machine Learning Lab</a>, Gachon University, I conducted foundational research on TinyML, publishing peer-reviewed work on CNN quantization and efficient inference on ARM Cortex-M microcontrollers.
+              <a class="meta-value meta-link" href="https://www.silicon-austria-labs.com/" target="_blank" rel="noopener noreferrer">Silicon Austria Labs, GmbH</a> and the <strong>University of Innsbruck</strong>, Austria, where my doctoral research centres on full model-heterogeneous federated learning methods for edge platforms. My work sits at the intersection of efficient machine learning, embedded systems, and distributed intelligence — spanning neural network quantization, pruning, knowledge distillation, and federated learning tailored to resource-constrained hardware.
+              <span class="bio-more-text" id="bioMoreText" hidden>Prior to my PhD, I worked as an AI Researcher at <a class="meta-value meta-link" href="https://deltax.ai/en" target="_blank" rel="noopener noreferrer">DeltaX Co., Ltd.</a> in Seoul, collaborating with Hyundai-Mobis and KIA on end-to-end deep learning pipelines for automotive applications including Driver Monitoring Systems and In-Cabin Monitoring Systems. This industry experience gave me hands-on expertise in hardware-software co-design and the deployment of optimised models on embedded platforms such as NVIDIA Jetson, Texas Instruments TDA4X, and HAILO. Earlier, as a Graduate Research Assistant at <a class="meta-value meta-link" href="https://ai-security.github.io/professor_main_e.htm" target="_blank" rel="noopener noreferrer">Information Security and Machine Learning Lab</a>, Gachon University, I conducted foundational research on TinyML, publishing peer-reviewed work on CNN quantization and efficient inference on ARM Cortex-M microcontrollers. </span><button type="button" class="bio-more-btn" id="bioMoreBtn" aria-expanded="false" aria-controls="bioMoreText">More</button>
             </p>
           </div>
           <div class="about-meta">
@@ -254,7 +490,98 @@
         <!-- Populated dynamically from data/updates.json -->
         <div class="updates-scroll-wrapper">
           <div class="updates-list" id="updates-container">
-            <p class="pub-loading">Loading updates…</p>
+            <!-- SEO:UPDATES:START — generated from data/updates.json by tools/build-seo.ps1. Do not edit by hand. -->
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2026-09">Sept 2026</time>
+              </div>
+              <div class="update-body"><p>Poster presentation at the IEEE International Conference on Image Processing (ICIP) 2026 for YawDD+: Frame-level Annotations for Accurate Yawn Prediction.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2026-08">Aug 2026</time>
+              </div>
+              <div class="update-body"><p>Poster presentation at the 28th International Conference on Pattern Recognition (ICPR) 2026 for FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2026-04">Apr 2026</time>
+              </div>
+              <div class="update-body"><p>Paper accepted at ICIP 2026 conference, YawDD+: Frame-level Annotations for Accurate Yawn Prediction.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2026-04">Apr 2026</time>
+              </div>
+              <div class="update-body"><p>Paper accepted at ICPR 2026 conference, FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2025-10">Oct 2025</time>
+              </div>
+              <div class="update-body"><p>Presentating my paper &quot;Federated Distillation on Edge Devices: Efficient Client-Side Filtering for Non-IID Data&quot; at FLTA 2025, Dubrovnik, Croatia.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2025-09">Sept 2025</time>
+              </div>
+              <div class="update-body"><p>Presentation on the topic &quot;Collaborative Learning on the Edge&quot; at the annual SAL-DC Summit, 2025.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2025-08">Aug 2025</time>
+              </div>
+              <div class="update-body"><p>Paper accepted at FLTA conference, Federated Distillation on Edge Devices: Efficient Client-Side Filtering for Non-IID Data.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2024-10">Oct 2024</time>
+              </div>
+              <div class="update-body"><p>Joined Silicon Austria Labs, GmbH as a PhD Student, Graz, Austria.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2023-03">Mar 2023</time>
+              </div>
+              <div class="update-body"><p>Joined DeltaX Co., Ltd. as an AI researcher, Seoul, South Korea.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2023-02">Feb 2023</time>
+              </div>
+              <div class="update-body"><p>Graduated in M.S Computer Engineering from Gachon University, Global Campus, South Korea.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2022-11">Nov 2023</time>
+              </div>
+              <div class="update-body"><p>Successfully defended my Masters thesis on, TinyML: Efficient Quantization and Deployment of Deep Neural Networks for Embedded IoT Applications, at  Gachon University, Global Campus, South Korea.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2022-09">Sept 2022</time>
+              </div>
+              <div class="update-body"><p>Paper accepted at NeurIPS workshop, MLOps: Open Challenges from Hardware and Software Perspective in TinyML Devices.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2022-09">Sept 2022</time>
+              </div>
+              <div class="update-body"><p>Paper accepted at IEEE Transaction on Circuit and Systems II - Express Briefs, Low Latency Implementations of CNN for Resource-Constrained IoT Devices.</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2021-03">Mar 2021</time>
+              </div>
+              <div class="update-body"><p>Joined as a Graduate Research Assistant in Information Security and Machine Learning Lab, and started M.S in Computer Engineering, Gachon university, South Korea</p></div>
+            </article>
+            <article class="update-card">
+              <div class="update-meta">
+                <time class="update-date" datetime="2020-08">Aug 2020</time>
+              </div>
+              <div class="update-body"><p>Graduated in B.Sc Electrical Engineering from University of Engineering and Technology, Taxila, Pakistan.</p></div>
+            </article>
+          <!-- SEO:UPDATES:END -->
           </div>
           <div class="updates-fade" aria-hidden="true"></div>
         </div>
@@ -413,7 +740,7 @@
               <span class="edu-period">Oct 2025 – Present</span>
               <h3 class="edu-degree">Ph.D. in Computer Science</h3>
               <p class="edu-institution">University of Innsbruck · Austria</p>
-              <p class="edu-thesis">Thesis: <em>"Model-Agnostic Collaborative Learning for Heterogeneous Edge Computing Environments."</em></p>
+              <p class="edu-thesis">Thesis: <em>"Model-Heterogeneous Distributed Learning Methods for Heterogeneous Edge Computing Environments."</em></p>
               <div class="edu-supervisors">
                 <p class="edu-sup-row">
                   <span class="edu-sup-label">Supervisor:</span>
@@ -477,9 +804,78 @@
     <section class="section section-light" id="publications" aria-labelledby="publications-heading">
       <div class="container">
         <h2 class="section-title" id="publications-heading">Publications</h2>
-        <!-- Populated dynamically from data/publications.json -->
         <div id="pub-container">
-          <p class="pub-loading">Loading publications…</p>
+          <!-- SEO:PUBS:START — generated from data/publications.json by tools/build-seo.ps1. Do not edit by hand. -->
+          <h3 class="pub-category-title">Journal Articles</h3>
+          <div class="pub-list">
+            <article class="pub-card">
+              <div class="pub-content">
+                <p class="pub-citation"><strong>Mujtaba, A.</strong>, Lee, W.K., Ko, B.C. et al. &ldquo;AuGQ: Augmented Quantization Granularity to Overcome Accuracy Degradation for Sub-Byte Quantized Deep Neural Networks.&rdquo; <em>Applied Intelligence, 55, 589</em>, 2025.</p>
+                <div class="pub-actions">
+                  <a href="https://doi.org/10.1007/s10489-025-06495-1" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--paper"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Paper <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                </div>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-content">
+                <p class="pub-citation"><strong>A. Mujtaba</strong>, W.-K. Lee, and S. O. Hwang. &ldquo;Low Latency Implementations of CNN for Resource-Constrained IoT Devices.&rdquo; <em>IEEE Transactions on Circuits and Systems II: Express Briefs</em>, 2022.</p>
+                <div class="pub-actions">
+                  <a href="https://doi.org/10.1109/TCSII.2022.3205029" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--paper"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Paper <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                  <a href="https://github.com/Ahmed-Mujtaba-98/CMix-NN-Implementation-of-MobileNetv1-using-CIFAR10-and-ImageNet-Dataset-on-STM32H7" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--code"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Code <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <h3 class="pub-category-title">Conference Papers</h3>
+          <div class="pub-list">
+            <article class="pub-card">
+              <div class="pub-content">
+                <p class="pub-citation"><strong>Mujtaba, A.</strong>, Radchenko, G., Prodan, R., and Masana, M. &ldquo;FedADAS: Communication-Efficient Federated Distillation for On-Device Driver Yawn Recognition in Vehicular Networks.&rdquo; <em>International Conference on Pattern Recognition (ICPR)</em>, 2026.</p>
+                <div class="pub-actions">
+                  <a href="https://link.springer.com/chapter/10.1007/978-3-032-31920-3_23" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--paper"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Paper <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                  <a href="https://opensource.silicon-austria.com/mujtabaa/fedadas" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--code"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Code <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                  <a href="assets/posters/fedadas-icpr2026-poster.pdf" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--poster"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="1"/><circle cx="9.5" cy="9.5" r="1.5"/><path d="M4 16l4.5-4.5a2 2 0 012.8 0L16 16M14 14l1.5-1.5a2 2 0 012.8 0L20 14"/></svg> Poster <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                </div>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-content">
+                <p class="pub-citation"><strong>Mujtaba, A.</strong>, Radchenko, G., Prodan, R., and Masana, M. &ldquo;YawDD+: Frame-level Annotations for Accurate Yawn Prediction.&rdquo; <em>IEEE International Conference on Image Processing (ICIP)</em>, 2026.</p>
+                <div class="pub-actions">
+                  <a href="https://ieeexplore.ieee.org/abstract/document/11630437" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--paper"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Paper <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                  <a href="https://opensource.silicon-austria.com/mujtabaa/yawdd" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--code"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Code <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                  <a href="assets/posters/yawddplus-icip2026-poster.pdf" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--poster"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="1"/><circle cx="9.5" cy="9.5" r="1.5"/><path d="M4 16l4.5-4.5a2 2 0 012.8 0L16 16M14 14l1.5-1.5a2 2 0 012.8 0L20 14"/></svg> Poster <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                </div>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-content">
+                <p class="pub-citation"><strong>Mujtaba, A.</strong>, Radchenko, G., Prodan, R., and Masana, M. &ldquo;Federated Distillation on Edge Devices: Efficient Client-Side Filtering for Non-IID Data.&rdquo; <em>2025 3rd International Conference on Federated Learning Technologies and Applications (FLTA), Dubrovnik, Croatia</em>, 2025.</p>
+                <div class="pub-actions">
+                  <a href="https://doi.org/10.1109/FLTA67013.2025.11336390" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--paper"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Paper <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                  <a href="https://opensource.silicon-austria.com/mujtabaa/edgefd" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--code"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg> Code <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                  <a href="assets/presentations/edgefd-flta2025-ppt.pdf" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--ppt"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg> PPT <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                </div>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-content">
+                <p class="pub-citation">Rozi Khan, <strong>Ahmed Mujtaba</strong>, Wai Kong Lee, and Seong Oun Hwang. &ldquo;Evaluation of Additive Power of Two Quantization on Various Deep Learning Datasets.&rdquo; <em>9th International Conference on Green and Human Information Technology (ICGHIT), pp. 72–74</em>, 2021.</p>
+              </div>
+            </article>
+          </div>
+          <h3 class="pub-category-title">Workshops</h3>
+          <div class="pub-list">
+            <article class="pub-card">
+              <div class="pub-content">
+                <p class="pub-citation"><strong>A. Mujtaba</strong>, Majeed, A., and S. O. Hwang. &ldquo;MLOps: Open Challenges from Hardware and Software Perspective in TinyML Devices.&rdquo; <em>Challenges in Deploying and Monitoring ML Systems Workshop, NeurIPS</em>, 2022.</p>
+                <div class="pub-actions">
+                  <a href="https://silicon-austria-labs.elsevierpure.com/ws/portalfiles/portal/75305058/paper_8.pdf" target="_blank" rel="noopener noreferrer" class="pub-btn pub-btn--paper"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Paper <svg aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- SEO:PUBS:END -->
         </div>
       </div>
     </section>
@@ -805,6 +1201,23 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <!-- Mobile-only back-to-top button -->
+  <button type="button" id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <!-- Notice shown before opening a poster / presentation PDF -->
+  <div class="pdf-notice-overlay" id="pdfNoticeOverlay" hidden>
+    <div class="pdf-notice-box" role="dialog" aria-modal="true" aria-labelledby="pdfNoticeTitle">
+      <h3 id="pdfNoticeTitle">Before you continue</h3>
+      <p>Please include the citation before reusing any figures, data, or text from the content.</p>
+      <div class="pdf-notice-actions">
+        <button type="button" class="btn btn-outline" id="pdfNoticeCancel">Cancel</button>
+        <a href="#" class="btn btn-primary" id="pdfNoticeContinue" target="_blank" rel="noopener noreferrer">Continue</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

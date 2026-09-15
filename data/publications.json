@@ -24,7 +24,8 @@
     "venue": "International Conference on Pattern Recognition (ICPR)",
     "year": "2026",
     "paper": "https://link.springer.com/chapter/10.1007/978-3-032-31920-3_23",
-    "code": "https://opensource.silicon-austria.com/mujtabaa/fedadas"
+    "code": "https://opensource.silicon-austria.com/mujtabaa/fedadas",
+    "poster": "assets/posters/fedadas-icpr2026-poster.pdf"
   },
   {
     "type": "conference",
@@ -33,7 +34,8 @@
     "venue": "IEEE International Conference on Image Processing (ICIP)",
     "year": "2026",
     "paper": "https://ieeexplore.ieee.org/abstract/document/11630437",
-    "code": "https://opensource.silicon-austria.com/mujtabaa/yawdd"
+    "code": "https://opensource.silicon-austria.com/mujtabaa/yawdd",
+    "poster": "assets/posters/yawddplus-icip2026-poster.pdf"
   },
   {
     "type": "conference",
@@ -42,7 +44,8 @@
     "venue": "2025 3rd International Conference on Federated Learning Technologies and Applications (FLTA), Dubrovnik, Croatia",
     "year": 2025,
     "paper": "https://doi.org/10.1109/FLTA67013.2025.11336390",
-    "code": "https://opensource.silicon-austria.com/mujtabaa/edgefd"
+    "code": "https://opensource.silicon-austria.com/mujtabaa/edgefd",
+    "ppt": "assets/presentations/edgefd-flta2025-ppt.pdf"
   },
   {
     "type": "conference",

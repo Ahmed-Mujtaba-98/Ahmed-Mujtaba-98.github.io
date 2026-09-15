@@ -348,6 +348,21 @@ ul { list-style: none; }
 .meta-link { color: var(--accent); }
 .meta-link:hover { text-decoration: underline; }
 
+.bio-more-btn {
+  display: inline;
+  margin-left: .3em;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.bio-more-btn:hover { color: var(--accent-dim); }
+
 /* =====================================================
    RESEARCH INTERESTS
    ===================================================== */
@@ -484,6 +499,19 @@ ul { list-style: none; }
   font-size: .75rem;
   top: 5px;
 }
+
+.card-bullets-more-btn {
+  display: inline-block;
+  margin: -6px 0 16px;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: .82rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  cursor: pointer;
+}
+.card-bullets-more-btn:hover { text-decoration: underline; }
 
 .card-tags {
   display: flex;
@@ -1062,11 +1090,13 @@ ul { list-style: none; }
   display: inline-flex;
   align-items: center;
   gap: 5px;
+  font-family: inherit;
   font-size: .75rem;
   font-weight: 700;
   padding: 5px 12px;
   border-radius: 6px;
   border: 1.5px solid transparent;
+  background: none;
   cursor: pointer;
   text-decoration: none;
   transition: background var(--transition), color var(--transition),
@@ -1094,6 +1124,28 @@ ul { list-style: none; }
   background: #16a34a;
   color: var(--white);
   border-color: #16a34a;
+}
+
+.pub-btn--poster {
+  background: rgba(168,85,247,.08);
+  color: #7c3aed;
+  border-color: rgba(168,85,247,.3);
+}
+.pub-btn--poster:hover {
+  background: #7c3aed;
+  color: var(--white);
+  border-color: #7c3aed;
+}
+
+.pub-btn--ppt {
+  background: rgba(217,119,6,.08);
+  color: #d97706;
+  border-color: rgba(217,119,6,.3);
+}
+.pub-btn--ppt:hover {
+  background: #d97706;
+  color: var(--white);
+  border-color: #d97706;
 }
 
 .pub-loading {
@@ -1201,9 +1253,82 @@ ul { list-style: none; }
   .leadership-role-badge { font-size: .7rem; }
 }
 
+/* Back-to-top (mobile only) */
+.back-to-top {
+  display: none;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 90;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--white);
+  box-shadow: var(--shadow-lg);
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity var(--transition), transform var(--transition), background var(--transition);
+}
+.back-to-top:hover { background: var(--accent-dim); }
+.back-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+@media (max-width: 640px) {
+  .back-to-top { display: flex; }
+}
+
+/* PDF pre-open notice */
+.pdf-notice-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(10,25,47,.65);
+  backdrop-filter: blur(2px);
+}
+.pdf-notice-overlay[hidden] { display: none; }
+
+.pdf-notice-box {
+  width: 100%;
+  max-width: 420px;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 28px 26px 24px;
+}
+.pdf-notice-box h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+.pdf-notice-box p {
+  font-size: .9rem;
+  color: var(--text-body);
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+.pdf-notice-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
 /* Print */
 @media print {
-  .site-header, .hero-actions, .hero-scroll-hint, .nav-toggle { display: none; }
+  .site-header, .hero-actions, .hero-scroll-hint, .nav-toggle, .back-to-top { display: none; }
   body { color: #000; }
   .section-dark { background: #fff; color: #000; }
   a { color: #000; }
