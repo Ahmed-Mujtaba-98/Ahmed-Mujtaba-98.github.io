@@ -615,15 +615,21 @@ ul { list-style: none; }
 }
 
 .edu-sup-link {
-  color: var(--white);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent-glow);
   font-weight: 700;
-  text-decoration: none;
-  transition: color var(--transition);
+  text-decoration: underline;
+  text-decoration-color: rgba(147,197,253,.4);
+  text-underline-offset: 3px;
+  transition: color var(--transition), text-decoration-color var(--transition);
 }
 .edu-sup-link:hover {
-  color: var(--accent-glow);
-  text-decoration: underline;
+  color: var(--white);
+  text-decoration-color: currentColor;
 }
+.edu-sup-ext { flex-shrink: 0; opacity: .8; }
 
 /* =====================================================
    PUBLICATIONS
@@ -1241,6 +1247,17 @@ ul { list-style: none; }
 /* Desktop — larger base font */
 @media (min-width: 641px) {
   html { font-size: 17.5px; }
+
+  /* The bio collapses behind "More" so mobile isn't a wall of text. On desktop
+     the About grid is two columns, and a collapsed bio leaves the left column
+     ending ~160px above the taller meta card — an L-shaped void that reads as
+     stray white space before Latest Updates. There is room here, so show the
+     full bio and drop the toggle. (Visible text also beats hidden text for SEO.) */
+  .bio-more-text[hidden] {
+    display: block;     /* restores the original paragraph break */
+    margin-top: 16px;
+  }
+  .bio-more-btn { display: none; }
 
   /* Keep nav and small badge elements compact */
   .nav-links a       { font-size: .76rem; }
